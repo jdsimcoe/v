@@ -1,0 +1,521 @@
+/* @Font-Face Kits */
+
+@font-face {
+    font-family: 'QuicksandLight';
+    src: url('../font/Quicksand_Light-webfont.eot?') format('eot'),
+         url('../font/Quicksand_Light-webfont.woff') format('woff'),
+         url('../font/Quicksand_Light-webfont.ttf') format('truetype'),
+         url('../font/Quicksand_Light-webfont.svg#webfontdSscXrwb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QuicksandLightOblique';
+    src: url('../font/Quicksand_Light_Oblique-webfont.eot?') format('eot'),
+         url('../font/Quicksand_Light_Oblique-webfont.woff') format('woff'),
+         url('../font/Quicksand_Light_Oblique-webfont.ttf') format('truetype'),
+         url('../font/Quicksand_Light_Oblique-webfont.svg#webfontL8SOzVOE') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QuicksandBook';
+    src: url('../font/Quicksand_Book-webfont.eot?') format('eot'),
+         url('../font/Quicksand_Book-webfont.woff') format('woff'),
+         url('../font/Quicksand_Book-webfont.ttf') format('truetype'),
+         url('../font/Quicksand_Book-webfont.svg#webfontQNKLE8Me') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QuicksandBookOblique';
+    src: url('../font/Quicksand_Book_Oblique-webfont.eot?') format('eot'),
+         url('../font/Quicksand_Book_Oblique-webfont.woff') format('woff'),
+         url('../font/Quicksand_Book_Oblique-webfont.ttf') format('truetype'),
+         url('../font/Quicksand_Book_Oblique-webfont.svg#webfontdezzUb1h') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QuicksandBold';
+    src: url('../font/Quicksand_Bold-webfont.eot?') format('eot'),
+         url('../font/Quicksand_Bold-webfont.woff') format('woff'),
+         url('../font/Quicksand_Bold-webfont.ttf') format('truetype'),
+         url('../font/Quicksand_Bold-webfont.svg#webfont41HQJ7Rv') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QuicksandBoldOblique';
+    src: url('../font/Quicksand_Bold_Oblique-webfont.eot?') format('eot'),
+         url('../font/Quicksand_Bold_Oblique-webfont.woff') format('woff'),
+         url('../font/Quicksand_Bold_Oblique-webfont.ttf') format('truetype'),
+         url('../font/Quicksand_Bold_Oblique-webfont.svg#webfontirlyzaXn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QuicksandDash';
+    src: url('../font/Quicksand_Dash-webfont.eot?') format('eot'),
+         url('../font/Quicksand_Dash-webfont.woff') format('woff'),
+         url('../font/Quicksand_Dash-webfont.ttf') format('truetype'),
+         url('../font/Quicksand_Dash-webfont.svg#webfontWxD3UQtx') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Embellish';
+    src: url('../font/Embellish-webfont.eot?') format('eot'),
+         url('../font/Embellish-webfont.woff') format('woff'),
+         url('../font/Embellish-webfont.ttf') format('truetype'),
+         url('../font/Embellish-webfont.svg#webfontBHjq0yu3') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Adhesive';
+    src: url('../font/Adhesive-webfont.eot?') format('eot'),
+         url('../font/Adhesive-webfont.woff') format('woff'),
+         url('../font/Adhesive-webfont.ttf') format('truetype'),
+         url('../font/Adhesive-webfont.svg#webfontcEj5wA4w') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* CSS Reset 2.0 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Global Styles */
+
+body {
+	background: #FF97EC url('../img/noise-sm.png') repeat;
+}
+
+/* ID Styles */
+
+#container {
+	width: 777px;
+	margin: 0 auto;
+}
+
+#main {
+	text-align: center;
+}
+
+/* Class Styles */
+
+.green {
+	position: relative;
+	top: 120px;
+	left: 130px;
+	color: #cdeb8e;
+  	text-shadow: 0 1px 0 #a6be74, 
+                0 2px 0 #879a5e,
+                0 3px 0 #879a5e,
+                0 4px 0 #879a5e,
+                0 5px 0 #879a5e,
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15),
+                -1px -1px 0 rgba(255,255,255,0.8);
+	font-size: 120px;
+	width: 20px;
+	line-height: 0px;
+	-webkit-transform: scale(0.9) rotate(-6deg);
+}
+
+.green::before {
+	content: "Be";
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	width: 10px;
+	position: relative;
+	top: -45px;
+	left: 54px;
+	line-height: 14px !important;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	color: rgba(0,0,0,0.5);
+}
+
+.green::after {
+	content: "Mine";
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	width: 10px;
+	position: relative;
+	line-height: 14px !important;
+	top:-28px;
+	left: -63px;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	color: rgba(0,0,0,0.5);
+}
+
+.green-2 {
+	position: relative;
+	bottom: 250px;
+	left: 600px;
+	color: #cdeb8e;
+  	text-shadow: 0 1px 0 #a6be74, 
+                0 2px 0 #879a5e,
+                0 3px 0 #879a5e,
+                0 4px 0 #879a5e,
+                0 5px 0 #879a5e,
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15),
+                -1px -1px 0 rgba(255,255,255,0.8);
+	font-size: 120px;
+	width: 20px;
+	line-height: 0px;
+	-webkit-transform: scale(0.9) rotate(12deg);
+}
+
+.green-2::before {
+	content: "I♥";
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	width: 10px;
+	position: relative;
+	top: -45px;
+	left: 54px;
+	line-height: 14px !important;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	color: rgba(0,0,0,0.5);
+}
+
+.green-2::after {
+	content: "You";
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	width: 10px;
+	position: relative;
+	line-height: 14px !important;
+	top:-28px;
+	left: -63px;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	color: rgba(0,0,0,0.5);
+}
+
+.orange {
+	position: relative;
+	top: 130px;
+	left: 600px;
+	color: #ebcd8a;
+  	text-shadow: 0 1px 0 #EB9B3E, 
+                0 2px 0 #EB9B3E,
+                0 3px 0 #EB9B3E,
+                0 4px 0 #EB9B3E,
+                0 5px 0 #EB9B3E,
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15),
+                -1px -1px 0 rgba(255,255,255,0.8);
+	font-size: 120px;
+	width: 20px;
+	line-height: 0px;
+	-webkit-transform: scale(0.9) rotate(9deg);
+}
+
+.orange::before {
+	content: "True";
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	width: 10px;
+	position: relative;
+	top: -46px;
+	left: 64px;
+	text-align: center;
+	line-height: 14px !important;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	color: rgba(0,0,0,0.5);
+}
+
+.orange::after {
+	content: "Love";
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	width: 10px;
+	position: relative;
+	text-align: center;
+	line-height: 14px !important;
+	top:-29px;
+	left: -64px;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	color: rgba(0,0,0,0.5);
+}
+
+.pink {
+	position: relative;
+	top: 300px;
+	left: 50px;
+	color: #ebbace;
+  	text-shadow: 0 1px 0 #EB7890, 
+                0 2px 0 #EB7890,
+                0 3px 0 #EB7890,
+                0 4px 0 #EB7890,
+                0 5px 0 #EB7890,
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15),
+                -1px -1px 0 rgba(255,255,255,0.8);
+	font-size: 120px;
+	width: 20px;
+	line-height: 0px;
+	-webkit-transform: scale(0.9) rotate(-12deg);
+	z-index: -999;
+}
+
+.pink::before {
+	content: "My";
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	width: 10px;
+	position: relative;
+	top: -43px;
+	left: 55px;
+	text-align: center;
+	line-height: 14px !important;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	color: rgba(0,0,0,0.5);
+}
+
+.pink::after {
+	content: "BFF";
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	width: 10px;
+	position: relative;
+	text-align: center;
+	line-height: 14px !important;
+	top:-25px;
+	left: -60px;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	color: rgba(0,0,0,0.5);
+}
+
+.pink-2 {
+	position: relative;
+	bottom: 170px;
+	left: 50px;
+	color: #ebbace;
+  	text-shadow: 0 1px 0 #EB7890, 
+                0 2px 0 #EB7890,
+                0 3px 0 #EB7890,
+                0 4px 0 #EB7890,
+                0 5px 0 #EB7890,
+                0 6px 1px rgba(0,0,0,.1),
+                0 0 5px rgba(0,0,0,.1),
+                0 1px 3px rgba(0,0,0,.3),
+                0 3px 5px rgba(0,0,0,.2),
+                0 5px 10px rgba(0,0,0,.25),
+                0 10px 10px rgba(0,0,0,.2),
+                0 20px 20px rgba(0,0,0,.15),
+                -1px -1px 0 rgba(255,255,255,0.8);
+	font-size: 120px;
+	width: 20px;
+	line-height: 0px;
+	-webkit-transform: scale(0.9) rotate(-12deg);
+	z-index: -999;
+}
+
+.pink-2::before {
+	content: "Love";
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	width: 10px;
+	position: relative;
+	top: -44px;
+	left: 64px;
+	text-align: center;
+	line-height: 14px !important;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	color: rgba(0,0,0,0.5);
+}
+
+.pink-2::after {
+	content: "Bug";
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	width: 10px;
+	position: relative;
+	text-align: center;
+	line-height: 14px !important;
+	top:-26px;
+	left: -60px;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	color: rgba(0,0,0,0.5);
+}
+
+
+.foil {
+	font-family: 'Adhesive';
+	font-size: 300px;
+	color: rgba(255,0,0,0.15);
+	position: relative;
+	top: -60px;
+	z-index: -999;
+}
+
+.name {
+	font-family: 'QuicksandLightOblique';
+	font-size: 70px;
+	color: rgba(255,255,255,0.9);
+	position: relative;
+	top:-265px;
+	left: -10px;
+	-webkit-transform: scale(0.75) rotate(-9deg);
+	text-shadow: 1px 3px 3px rgba(255,0,0,0.45)
+}
+
+.flour-1 {
+	font-family: 'Embellish';
+	font-size: 200px;
+	position: relative;
+	top: -230px;
+	color: rgba(255,255,255,0.1);
+}
+
+.flour-2 {
+	font-family: 'Embellish';
+	font-size: 200px;
+	color: rgba(255,0,0,0.1);
+	position: relative;
+	top: -320px;
+	-webkit-transform: scale(1.0) rotate(180deg);
+}
+
+.question {
+	font-family: 'QuicksandBold';
+	font-size: 100px;
+	position: relative;
+	top: -270px;
+	color: rgba(255,255,255,0.7);
+	text-shadow: 0px 1px 4px rgba(255,0,0,0.5)
+}
+
+.lower {
+	font-family: 'QuicksandBook';
+	font-size: 70px;
+	position: relative;
+	top: -235px;
+	color: rgba(255,255,255,0.9);
+	text-shadow: 0px 1px 2px rgba(255,0,0,0.5);
+	padding: 100px 120px 100px 120px;
+}
+
+.lower .amp {
+	font-family: 'Baskerville';
+	font-style: italic;
+	color: rgba(255,255,255,0.7);
+	text-shadow: 0 0 7px rgba(255,0,0,0.7)
+}
+
+.heart {
+	position: absolute;
+	top: 750px;
+	margin: 0 auto;
+	font-size: 777px;
+	color: rgba(255,0,0,0.5);
+	z-index: -999;
+}
+
+.sig {
+	font-family: 'QuicksandBook';
+	font-size: 70px;
+	position: relative;
+	top: -50px;
+	line-height: 100px;
+	color: rgba(255,255,255,0.5);
+}
+
+.sig span {
+	font-family: 'QuicksandBold';
+	color: rgba(255,255,255,0.7);
+	text-shadow: 0px 1px 4px rgba(255,0,0,0.5)
+}
